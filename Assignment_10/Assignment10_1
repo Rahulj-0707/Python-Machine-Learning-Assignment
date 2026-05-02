@@ -1,0 +1,11 @@
+def Table(No):
+    for i in range(1,11,1):
+        Ans = No * i
+        print(No," * ",i," = ", Ans)
+
+def main():
+    Value = int(input("Enter a Number:"))
+    Table(Value)
+
+if __name__ == "__main__":
+    main()
